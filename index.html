@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<title>我的个人简历</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- 以下是引入的做前端时普遍会用到的library格式 -->
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<style>
+    html,
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "Roboto", sans-serif
+    }
+</style>
+
+<body class="w3-light-grey">
+
+    <!-- 设置顶部banner背景图片，可以在Ava的git上marster分支ProjectPhotos文件夹里选择自己喜欢的背景图片（具体操作：右键点击图片->复制图片地址->把URL添加到代码里） -->
+   <!-- 图片文件夹地址：https://github.com/AvaWu-AU/git_cv_project/tree/master/ProjectPhotos -->
+   <div class="text-center" style="margin-bottom:0;background-image: url('https://github.com/AvaWu-AU/git_cv_project/blob/master/ProjectPhotos/topBanner2.jpg?raw=true'); background-repeat: no-repeat;
+     background-size: cover;color:#ffffff;padding-top:5rem;padding-bottom : 30rem;background-attachment: fixed;">
+        <h1>Ava的个人主页</h1>
+        <p>程序媛的进化历程</p>
+    </div>
+    <!-- 顶部导航栏 -->
+    <div style="background-color: #343a40;display:flex;flex-direction: row;justify-content: center;">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <a class="navbar-brand" href="#">简历内容</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">技能</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">语言</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">工作经历</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">学历</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <!-- 页面内容框 -->
+    <div class="w3-content w3-margin-top" style="max-width:1400px;">
+
+        <!-- 页面大小，会根据不同的浏览器自动调整大小，最大宽度1400px-->
+        <div class="container-sm" style="max-width:1400px;">
+            <!-- The Grid -->
+            <div class="row">
+                <!-- 左边栏目 -->
+                <div class="col-sm-4">
+                    <div class="w3-white w3-text-grey w3-card-4">
+                        <div class="w3-display-container">
+                            <!-- 以下在src的双引号内输入你喜欢的照片路径 -->
+                            <div class="col" style="text-align: right;"><img src="https://github.com/AvaWu-AU/git_cv_project/blob/master/ProjectPhotos/%E4%B8%AA%E4%BA%BA%E5%A4%B4%E5%83%8F-HelloWorld%E7%B4%AB%E8%89%B2%E5%B0%8F%E7%BE%8A.png?raw=true"
+                                    style="width:60%;text-align: right;padding:10px 10px;margin:10px 10px;"
+                                    alt="Avatar"></div>
+                            <div class="w3-display-bottomleft w3-container w3-text-black">
+                                <h2>Ava艾娃</h2>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-teal"></i>Software
+                                Developer
+                            </p>
+                            <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-teal"></i>澳大利亚 墨尔本</p>
+                            <p><i
+                                    class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal"></i>584099721@qq.com
+                            </p>
+                            <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal"></i>1224435534</p>
+                            <hr>
+
+                            <p class="w3-large"><b><i
+                                        class="fa fa-asterisk fa-fw w3-margin-right w3-text-teal"></i>IT技能</b>
+                            </p>
+                            <p style="font-size:1.3rem;"><span class="badge badge-info">Java</span>
+                                <span class="badge badge-info">PHP</span>
+                                <span class="badge badge-info">JavaScript</span>
+                                <span class="badge badge-info">ReactJS</span>
+                                <span class="badge badge-info">jQuery</span>
+                                <span class="badge badge-info">HTML</span>
+                                <span class="badge badge-info">CSS</span>
+                                <span class="badge badge-info">Bootstrap</span>
+                                <span class="badge badge-info">Laravel</span>
+                                <span class="badge badge-info">Django</span>
+                                <span class="badge badge-info">Python</span>
+                                <span class="badge badge-info">Swift</span>
+                                <span class="badge badge-info">Magento</span>
+                                <span class="badge badge-info">Wordpress</span>
+                                <span class="badge badge-info">Git</span>
+                                <span class="badge badge-info">Postman</span></p>
+                            <br>
+                            <p class="w3-large"><b><i class="w3-margin-right w3-text-teal fa fa-diamond"></i>UI软件使用技能</b>
+                            </p>
+                            <p style="font-size:1.3rem;">
+                                <span class="badge badge-success">Sketch</span>
+                                <span class="badge badge-success">Photoshop</span>
+                                <span class="badge badge-success">Adobe Illustrator</span>
+                                <br>
+
+                            <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-teal"></i>语言</b></p>
+                            <p>粤语</p>
+                            <div class="w3-light-grey w3-round-xlarge">
+                                <div class="w3-round-xlarge w3-teal" style="height:24px;width:100%"></div>
+                            </div>
+                            <p>普通话</p>
+                            <div class="w3-light-grey w3-round-xlarge">
+                                <div class="w3-round-xlarge w3-teal" style="height:24px;width:80%"></div>
+                            </div>
+                            <p>英语</p>
+                            <div class="w3-light-grey w3-round-xlarge">
+                                <div class="w3-round-xlarge w3-teal" style="height:24px;width:70%"></div>
+                            </div>
+                            <br>
+                        </div>
+                    </div><br>
+                    <!-- 左边栏结束 -->
+                </div>
+
+                <!-- 右边栏内容 -->
+                <div class="col-sm-8">
+
+                    <div class="w3-container w3-card w3-white w3-margin-bottom">
+                        <h2 class="w3-text-grey w3-padding-16"><i
+                                class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>工作经历</h2>
+                        <div class="w3-container">
+                            <h5 class="w3-opacity"><b>软件开发 / Merp Australia 澳大利亚 墨尔本</b></h5>
+                            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2018年7月 - <span
+                                    class="w3-tag w3-teal w3-round">至今</span></h6>
+                            <p>使用PHP, JavaScript, jQuery, Bootstrap, HTML, CSS, Laravel框架等技术进行企业ERP系统开发，前端后端开发，API开发，Magento
+                                2.0电商平台开发以及Wordpress开发</p>
+                            <hr>
+                        </div>
+                        <div class="w3-container">
+                            <h5 class="w3-opacity"><b>市场营销顾问 / TSC Group 澳大利亚墨尔本</b></h5>
+                            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2016年7月 -
+                                2019年10月
+                            </h6>
+                            <p>企业网站运营，运营SEO营销技术提高网站搜索排名；企业新媒体运营，微信公众号，Facebook,YouTube账号等社交媒体策划运营；企业视频营销方案创意策划、录影及制作</p>
+                            <hr>
+                        </div>
+                        <div class="w3-container">
+                            <h5 class="w3-opacity"><b>市场营销 / UBM Aisa and Citi Expo (这两家公司后来被Informa集团收购） 中国广州</b></h5>
+                            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2011年11月 -
+                                2014年12月
+                            </h6>
+                            <p>企业网站运营，运营SEO营销技术提高网站搜索排名；企业新媒体运营，微信公众号，Facebook,YouTube账号等社交媒体策划运营；企业视频营销方案创意策划、录影及制作
+                            </p>
+                            <br>
+                        </div>
+                    </div>
+
+                    <div class="w3-container w3-card w3-white w3-margin-bottom">
+                        <h2 class="w3-text-grey w3-padding-16"><i
+                                class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-teal"></i>教育经历</h2>
+                        <div class="w3-container">
+                            <h5 class="w3-opacity"><b>RMIT墨尔本皇家理工大学</b></h5>
+                            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2015年7月 -
+                                2017年7月
+                            </h6>
+                            <p>Information Technology信息技术研究生学位</p>
+                            <hr>
+                        </div>
+                        <div class="w3-container">
+                            <h5 class="w3-opacity"><b>澳大利亚翻译学院</b></h5>
+                            <h6 class="w3-text-teal"><i class="fa fa-calendar fa-fw w3-margin-right"></i>2018 - 2018
+                            </h6>
+                            <p>澳大利亚翻译协会NAATI三级翻译</p>
+                            <hr>
+                        </div>
+                        <div class="w3-container">
+                            <h5 class="w3-opacity"><b>华南理工大学</b></h5>
+                            <p>商科本科学位</p><br>
+                        </div>
+                    </div>
+
+                    <!-- 右边栏内容结束 -->
+                </div>
+
+                <!-- End Grid -->
+            </div>
+
+            <!-- 页面内容结束 -->
+        </div>
+
+        <!-- 页脚代码 -->
+        <footer class="w3-container w3-teal w3-center w3-margin-top" style="font-size:1.2rem;color:#ffffff;">
+            <p>欢迎关注我的社交账号</p>
+            <i class="fa fa-youtube w3-hover-opacity"></i><a
+                href="https://www.youtube.com/channel/UC6ht_Qks8IFy9z0TZfSLY5Q?view_as=subscriber" target="_blank"
+                style="color:#ffffff;">YouTube-Ava艾娃</a>
+            <i class="fa fa-instagram w3-hover-opacity"></i><a
+                href="https://space.bilibili.com/570279925?spm_id_from=333.788.b_765f7570696e666f.2" target="_blank"
+                style="color:#ffffff;margin-left:20px;margin-bottom:10px;">B站-Ava艾娃-程序媛</a>
+                  <!-- 页脚代码结束 -->
+        </footer>
+</body>
+
+</html>
